@@ -7,3 +7,7 @@ $("#my_button")
   .mouseleave(function() {
     $("#my_button").removeClass("rosso");
   });
+$("#my_button")
+  .dblclick(function() {
+    $("#my_button").text("Cliccato");
+  });
